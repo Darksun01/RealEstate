@@ -27,8 +27,7 @@ function Extra() {
               Find Beautiful properties that suite you the best
             </span>
             <span className="secondaryText">
-              You will not face any difficulties in finding the best residence
-              for you
+            From residencial properties to commercial properties we have got you covered
             </span>
           </div>
           <div className="flexCenter search-bar">
@@ -40,7 +39,7 @@ function Extra() {
           <div className="flexCenter stats">
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={8500} end={9000} duration={4} />
+                <CountUp start={8500} end={9000} duration={3} />
                 <span>+</span>
               </span>
 
@@ -49,7 +48,7 @@ function Extra() {
 
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={50} end={90} duration={4} />
+                <CountUp start={1500} end={2000} duration={3} />
                 <span>+</span>
               </span>
 

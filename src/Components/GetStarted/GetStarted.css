@@ -5,10 +5,13 @@
   border-radius: 20px;
   border: 6px solid rgb(107, 107, 195);
   text-align: center;
+  box-shadow: 
+  0 4px 15px rgba(217, 191, 191, 0.3), /* Soft white shadow for depth */
+  0 8px 25px rgba(62, 60, 60, 0.5); /* Darker shadow for a 3D effect */
 }
 
 .inner-container .primaryText {
-  color: aliceblue;
+  color:aliceblue;
   font-weight: 600;
 }
 
@@ -17,8 +20,16 @@
 }
 
 .inner-container .button {
-  background: blue;
+  background: black;
   border: 2px solid white;
   box-shadow: var(--shadow);
   border-radius: 10px;
+}
+
+.inner-container:hover{
+  scale: (1.1);
+}
+
+.button>a:hover{
+    background: black;
 }

@@ -15,7 +15,7 @@ import data from "../../utils/accordion";
 const Value = () => {
   const [className, setClassName] = useState(null);
   return (
-    <section className="v-wrapper">
+    <section id="value" className="v-wrapper">
       <div className="paddings innerWidth flexCenter v-container">
         {/* left side */}
         <div className="v-left">
@@ -26,12 +26,13 @@ const Value = () => {
 
         {/* right side */}
         <div className="flexColStart v-right">
-          <span className="orangeText">Our Value</span>
-          <span className="primaryText">Value we give to you</span>
+          {/* <span className="orangeText">Our Value</span> */}
+          <span className="orangeText">Value we provide to you</span>
           <span className="secondaryText">
-            We always help you to find the right Property <br /> Best service
-            you can get is from us related to buying the best property that will
-            have great value in future
+            We help you find the perfect property tailored to your needs. Our
+            exceptional service ensures you receive expert guidance in
+            purchasing a property with strong future value. Trust us to make
+            your investment a success.
           </span>
 
           <Accordion

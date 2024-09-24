@@ -10,21 +10,22 @@ const Footer = () => {
           <img src="./logo.jpg" alt="" width={120} />
 
           <span className="secondaryText">
-            Our vision is to help you by providing you the best properties
+            Our vision is to empower individuals to achieve their dream
+            properties through informed decision-making.
           </span>
         </div>
 
         {/* right side */}
         <div className="flexColStart f-right">
-          <span className="primaryText">Information</span>
-          <span className="secondaryText">Bangalore, Karnataka</span>
+          <span className="orangeText">Address</span>
+          <span className="secondaryText">Saket, New Delhi</span>
 
-          <div className="flexCenter f-menu">
+          {/* <div className="flexCenter f-menu">
             <span>Property</span>
             <span>Services</span>
             <span>Product</span>
             <span>About Us</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

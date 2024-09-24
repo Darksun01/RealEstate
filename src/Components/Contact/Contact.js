@@ -6,15 +6,16 @@ import { BsFillChatDotsFill } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <div id="contact-us" className="c-wrapper">
+    <div id="contact" className="c-wrapper">
       <div className="paddings innerWidth flexCenter c-container">
         {/* left side */}
         <div className="flexColStart c-left">
-          <span className="orangeText">Our Contact Us</span>
-          <span className="primaryText">Easy to contact us</span>
+          <span className="orangeText">Contact Us</span>
+          {/* <span className="primaryText">Easy to contact us</span> */}
           <span className="secondaryText">
-            We always ready to help by providijng the best services for you. We
-            beleive a good blace to live can make your life better{" "}
+            Reach out to us today! Our dedicated team is ready to assist you
+            with any questions or concerns. We’re here to help you find your
+            dream property.{" "}
           </span>
 
           <div className="flexColStart contactModes">

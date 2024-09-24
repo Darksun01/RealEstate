@@ -7,7 +7,7 @@
 }
 
 .extra-container {
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-end;
 }
 .extra-left {
@@ -71,13 +71,13 @@
   height: 100%;
 }
 
-* {
+/* * {
   margin: -4px;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
-}
+} */
 
 @media (max-width: 640px) {
   .hero-container {

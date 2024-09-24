@@ -7,11 +7,11 @@ import { sliderSettings } from "../../utils/common";
 
 const Residencies = () => {
   return (
-    <sections className="r-wrapper">
+    <sections id="residencies" className="r-wrapper">
       <div className="paddings innerWidth r-container">
         <div className="r-head flexColStart">
-          <span className="orangeText">Best Choices</span>
-          <span className="primaryText">Popular Residencies</span>
+          {/* <span className="orangeText">Best Choices</span> */}
+          <span className="orangeText">Popular Residencies</span>
         </div>
 
         <Swiper {...sliderSettings}>

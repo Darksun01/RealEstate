@@ -22,11 +22,10 @@ function Header() {
           }}
         >
           <div className=" flexCenter h-menu" style={getMenuStyles(menuOpened)}>
-            <a href="">Recidencies</a>
-            <a href="">Our Value</a>
-            <a href="">Contact Us</a>
-            <a href="">Get Started</a>
-            <button className="button">Contact </button>
+            <a href="#residencies">Residencies</a>
+            <a href="#value">Our Value</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#getStarted">Get Started</a>
           </div>
         </OutsideClickHandler>
 
